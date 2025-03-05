@@ -94,22 +94,22 @@ kubectl get all -n ${NAMESPACE}
 This repository covers the installation of the following DevOps tools:
 
 ### **1️⃣ Kubernetes Ingress & Networking**
-- **[NGINX Ingress Controller](installations/ingress-nginx/)**
-- **[Traefik Ingress Controller](installations/traefik-ingress)**
-- **[MetalLB (LoadBalancer)](installations/metallb/)**
+- **[NGINX Ingress Controller](installations/ingress-nginx.md)**
+- **[Traefik Ingress Controller](installations/traefik-ingress.md)**
+- **[MetalLB (LoadBalancer)](installations/metallb.md)**
 
 ### **2️⃣ Monitoring & Observability**
-- **[Prometheus](installations/prometheus/)**
-- **[Grafana](installations/grafana/)**
-- **[Loki (Log Aggregation)](installations/loki/)**
+- **[Prometheus](installations/prometheus.md)**
+- **[Grafana](installations/grafana.md)**
+- **[Loki (Log Aggregation)](installations/loki.md)**
 
 ### **3️⃣ CI/CD & GitOps**
-- **[ArgoCD](installations/argo-cd/)**
-- **[Argo Rollouts](installations/argo-rollouts/)**
-- **[Jenkins](installations/jenkins/)**
+- **[ArgoCD](installations/argo-cd.md)**
+- **[Argo Rollouts](installations/argo-rollouts.md)**
+- **[Jenkins](installations/jenkins.md)**
 
 ### **4️⃣ Storage & Backup**
-- **[OpenEBS](installations/openebs/)**
+- **[OpenEBS](installations/openebs.md)**
 - **MORE - COMING SOON**
 
 
