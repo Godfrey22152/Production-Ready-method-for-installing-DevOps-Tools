@@ -13,42 +13,7 @@ This repository provides a **detailed guide** on installing **production-ready D
 
 This method follows **best practices** for managing Kubernetes-based infrastructure, ensuring stability and maintainability.
 
-## Repository Structure
-
-```
-📁 production-ready-devops/
-│
-├── 📁 helm-manifests/        # Helm chart values for each tool
-│   ├── ingress-nginx/         # NGINX Ingress Controller
-│   ├── prometheus/           # Prometheus Monitoring Stack
-│   ├── grafana/              # Grafana for Dashboards
-│   ├── argo-cd/              # ArgoCD for GitOps
-│   ├── argo-rollouts/        # Argo Rollouts for Progressive Delivery
-│   ├── openebs/              # OpenEBS Storage
-│   ├── jenkins/              # Jenkins CI/CD
-│   └── ...                   # More DevOps tools
-│
-├── 📁 gitops/                 # GitOps configurations (ArgoCD Applications)
-│   ├── applications/
-│   │   ├── ingress-nginx.yaml
-│   │   ├── prometheus.yaml
-│   │   ├── argo-cd.yaml
-│   │   ├── jenkins.yaml
-│   │   └── ...
-│   └── README.md
-│
-├── 📁 docs/                   # Documentation and guides
-│   ├── installation.md        # Step-by-step installation
-│   ├── troubleshooting.md     # Common issues and fixes
-│   ├── upgrading.md           # Upgrade strategies
-│   ├── rollback.md            # Rollback procedures
-│   └── README.md
-│
-├── 📄 README.md                # Main project README
-└── 📄 .gitignore               # Ignore unnecessary files
-```
-
-
+---
 ## **Key Features & Highlights Implemented in the Installation Process**
 
 - 🚀 **Compatibility Assurance:** – Each DevOps tool installation starts with a **compatibility check**, ensuring that versions align with Kubernetes compatibility matrices. This prevents unexpected failures due to version mismatches.
@@ -69,7 +34,7 @@ This method follows **best practices** for managing Kubernetes-based infrastruct
 
 These enhancements ensure stability, scalability, and maintainability, making DevOps tool installations truly production-ready. 🚀
 
-
+---
 ## Standard Installation Steps (For All DevOps Tools)
 
 Most tools follow a **common installation pattern**:
@@ -123,6 +88,7 @@ helm upgrade --install ${HELM_RELEASE_NAME} ${HELM_REPO}/${HELM_RELEASE_NAME} \
 kubectl get all -n ${NAMESPACE}
 ```
 
+---
 ## DevOps Tools Installed
 
 This repository covers the installation of the following DevOps tools:
@@ -148,7 +114,7 @@ This repository covers the installation of the following DevOps tools:
 
 
 
-
+---
 ## Contributing
 
 If you’d like to contribute, feel free to fork the repository, make improvements, and submit a pull request!
