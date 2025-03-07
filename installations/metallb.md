@@ -2,13 +2,14 @@
 
 This method ensures version control, easy upgrades, and rollback capabilities while allowing GitOps-style configuration management.
 
-MetalLB is a load-balancer implementation for bare metal Kubernetes clusters, using standard routing protocols. You can find the **MetalLB documentation **[here](https://metallb.io/)**
+MetalLB is a load-balancer implementation for bare metal Kubernetes clusters, using standard routing protocols. Checkout the **MetalLB documentation 👉 [here](https://metallb.io/)**
 
 ---
 
 ## 1️⃣ Check Compatibility & Version Matrix
 Before installation, check the latest MetalLB Helm chart version from the official repository:
-👉 **[MetalLB Helm Chart](https://artifacthub.io/packages/helm/metallb/metallb)** also checkout the **[Installation with Helm guide](https://metallb.universe.tf/installation/#installation-with-helm)**
+- 👉 **[MetalLB Helm Chart](https://artifacthub.io/packages/helm/metallb/metallb)**
+- Also, checkout MetalLB 👉 **[Installation-with-Helm-guide](https://metallb.universe.tf/installation/#installation-with-helm)**
 
 ---
 
@@ -158,9 +159,12 @@ kubectl apply -f ./metallb_manifest/metallb-config.yaml
 
 ---
 
-📌 Why This Method is Best?
-✅ Version Control – You control installed versions, preventing unexpected updates.
-✅ Easy Rollback – helm rollback metallb <REVISION> makes it easy to revert changes.
-✅ GitOps Ready – Store manifests in Git for traceability and automation.
-✅ Namespace Isolation – Keeps MetalLB deployments clean and manageable.
-✅ Observability – Can be integrated with Prometheus for monitoring.
+## ❇️ Congratulations: We have MetalLB Installed 🔃
+
+### 📌 **Why This Method is Best?**
+
+- ✅ Version Control – You control installed versions, preventing unexpected updates.
+- ✅ Easy Rollback – helm rollback metallb <REVISION> makes it easy to revert changes.
+- ✅ GitOps Ready – Store manifests in Git for traceability and automation.
+- ✅ Namespace Isolation – Keeps MetalLB deployments clean and manageable.
+- ✅ Observability – Can be integrated with Prometheus for monitoring.
