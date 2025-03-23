@@ -105,7 +105,7 @@ This repository covers the installation of the following DevOps tools:
 
 ### **3️⃣ CI/CD & GitOps**
 - **[ArgoCD](installations/argo-cd.md)**
-- **[Argo Rollouts](installations/argo-rollouts.md)**
+- **[Argo Rollouts](https://github.com/Godfrey22152/Production-Ready-method-for-installing-DevOps-Tools/blob/main/installations/argo-rollout/argo-rollouts.md)**
 - **[Jenkins](installations/jenkins.md)**
 
 ### **4️⃣ Storage & Backup**
