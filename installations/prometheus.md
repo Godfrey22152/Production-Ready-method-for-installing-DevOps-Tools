@@ -218,10 +218,10 @@ kubectl get svc -n ${NAMESPACE}
 NAME                                             TYPE           CLUSTER-IP       EXTERNAL-IP      PORT(S)                         AGE
 alertmanager-operated                            ClusterIP      None             <none>           9093/TCP,9094/TCP,9094/UDP      1h
 kube-prometheus-stack-alertmanager               ClusterIP      10.111.155.232   <none>           9093/TCP,8080/TCP               1h
-kube-prometheus-stack-grafana                    LoadBalancer   10.105.193.58    <none>           80:31799/TCP                    1h
+kube-prometheus-stack-grafana                    ClusterIP      10.105.193.58    <none>           80:31799/TCP                    1h
 kube-prometheus-stack-kube-state-metrics         ClusterIP      10.107.6.171     <none>           8080/TCP                        1h
 kube-prometheus-stack-operator                   ClusterIP      10.99.47.20      <none>           443/TCP                         1h
-kube-prometheus-stack-prometheus                 LoadBalancer   10.101.119.196   <none>           9090:31723/TCP,8080:30867/TCP   1h
+kube-prometheus-stack-prometheus                 ClusterIP      10.101.119.196   <none>           9090:31723/TCP,8080:30867/TCP   1h
 kube-prometheus-stack-prometheus-node-exporter   ClusterIP      10.106.233.217   <none>           9100/TCP                        1h
 prometheus-operated                              ClusterIP      None             <none>           9090/TCP                        1h
 ```
