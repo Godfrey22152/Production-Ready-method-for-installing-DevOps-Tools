@@ -195,7 +195,7 @@ dashboard:
       #       port:
       #         name: use-annotation
 ```
-- **You can find the complete and configured `values-argo-rollouts.${APP_VERSION}.yaml` file in the installation folder **[Here](https://github.com/Godfrey22152/Canary-Deployment-with-Argo-Rollout/blob/main/Infra-Setup/argo-rollout-setup/values-argo-rollouts.1.7.2.yaml)**
+- **You can find the complete and configured `values-argo-rollouts.${APP_VERSION}.yaml` file in the installation folder **[Here](https://github.com/Godfrey22152/Production-Ready-method-for-installing-DevOps-Tools/blob/main/installations/argo-rollout/values-argo-rollouts.1.7.2.yaml)**
 
 ---
 
