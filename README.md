@@ -99,7 +99,7 @@ This repository covers the installation of the following DevOps tools:
 - **[MetalLB (LoadBalancer)](installations/metallb.md)**
 
 ### **2️⃣ Monitoring & Observability**
-- **[Prometheus](installations/prometheus.md)**
+- **[Kube-Prometheus-Stack](installations/prometheus.md)**
 - **[Grafana](installations/grafana.md)**
 - **[Loki (Log Aggregation)](installations/loki.md)**
 
