@@ -1,11 +1,11 @@
-# Production-Ready Installation of Vault on Kubernetes deployment guide
+# Production-Ready Installation of Vault on Kubernetes: deployment guide
 
 This guide provides step-by-step instructions for deploying a production-ready HashiCorp Vault cluster on Kubernetes using the official HashiCorp Helm chart. This method is recommended for its robustness, scalability, and ease of management.
 
 This guide is based on the official [HashiCorp Vault on Kubernetes deployment guide](https://developer.hashicorp.com/vault/tutorials/kubernetes/kubernetes-raft-deployment-guide).
 
 ---
-## 1️⃣. Prerequisites
+## 1️⃣ Prerequisites
 
 Before you begin, ensure you have the following:
 
@@ -16,7 +16,7 @@ Before you begin, ensure you have the following:
 
 ---
 
-## 2️⃣. Add the HashiCorp Helm Repository
+## 2️⃣ Add the HashiCorp Helm Repository
 
 Add the HashiCorp Helm repository to your local Helm client and update it to fetch the latest chart information.
 
@@ -56,10 +56,13 @@ HELM_REPO="hashicorp"
 CHART_NAME="vault"
 MANIFEST_DIR="./helm_manifests/vault"
 MANIFEST_FILE="${MANIFEST_DIR}/override-values.${CHART_VERSION}.yaml"
+
+# Create the directory if it doesn't exist
+mkdir -p "${MANIFEST_DIR}"
 ```
 ---
 
-## 4️⃣. Install Vault with Helm
+## 4️⃣ Install Vault with Helm
 
 This command deploys Vault in High Availability (HA) mode with the Raft integrated storage backend.
 
