@@ -93,10 +93,11 @@ kubectl get all -n ${NAMESPACE}
 
 This repository covers the installation of the following DevOps tools:
 
-### **1️⃣ Kubernetes Ingress & Networking**
+### **1️⃣ Kubernetes: Security, Ingress & Networking Tools**
 - **[NGINX Ingress Controller](installations/ingress-nginx.md)**
 - **[Traefik Ingress Controller](installations/traefik-ingress.md)**
 - **[MetalLB (LoadBalancer)](installations/metallb.md)**
+- **[Vault](installations/vault.md)**
 
 ### **2️⃣ Monitoring & Observability**
 - **[Kube-Prometheus-Stack](installations/prometheus.md)**
